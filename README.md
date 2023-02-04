@@ -1,13 +1,13 @@
-# Rift Bare Template
-This repository serves as a barebones project template with the Rift framework. It includes minimal examples of development, testing, and deployment.
+# Rift FunC Template
+This repository acts as a template for `FunC` projects utilizing the Rift framework, offering a streamlined solution for testing and deploying FunC contracts.
 
 ## Initializing the Project
 To start a new project, you have two options:
 
-1. Use this template directly through GitHub's interface by clicking the Use this template button and cloning your project.
+1. Use this template directly through GitHub's interface by clicking the `Use this template` button and cloning your project.
 2. Use the rift command:
 ```bash
-rift init my-project
+rift init my-project --base func
 ```
 This will initialize a new project in the `my-project` directory.
 
