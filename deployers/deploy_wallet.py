@@ -5,7 +5,7 @@ from rift.runtime.keystore import KeyStore
 from contracts.wallet import Wallet
 
 
-def deploy():
+def deploy(network: Network):
     init_data = Wallet.Data(
         seq_no=0,
         sub_wallet=0,
